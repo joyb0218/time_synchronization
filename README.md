@@ -40,11 +40,17 @@ SOLUTION: Check if log is generating files. It was - stopped running and reran l
 
 # time_synchronization for personal PC (not a simulation)
 
-Moving out of the simulation of the NTP Client and into the system logs of my personal computer to synchronize time and analyze the logs for consistency.
+Moving out of the simulation of the NTP Client and into the system logs of my personal computer to synchronize time and analyze the logs for consistency using PyCharm.
 
 # Steps:
-- Created a personal log subdirectory under time_sync_log_analysis
-- Created new py file: log_generator.py
+- Created a personal log subdirectory under time_sync_log_analysis- named: logs_personal
+- Created 2 new py files:
+  - custom_log_gen.py: generates application events over the last hour
+  - personal_pc.py: generates system files into the console directly (does not dump into a txt file). Does not timeout, be sure to stop running it when ready.
+ 
+# Overview
+
+By analyzing logs, security teams can identify anomalies, unauthorized access attempts, and signs of intrusions, as well as perform root cause analysis and forensic investigations. Logs also support regulatory compliance and create audit trails for reviewing security policies. Python is an ideal tool for log analytics due to its versatility and rich ecosystem of libraries, such as pandas, numpy, and matplotlib, which facilitate data manipulation, analysis, and visualization. Its readable syntax allows for rapid development and easy maintenance of scripts, while its integration capabilities enable seamless connection with other tools and services.
 
 
 
