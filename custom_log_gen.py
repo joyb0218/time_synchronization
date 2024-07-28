@@ -2,7 +2,6 @@ import logging
 import os
 from datetime import datetime, timedelta
 import win32evtlog
-import pywintypes
 
 # Set up logging to overwrite the log file each time the script runs
 log_file_path = os.path.join(os.path.dirname(__file__), 'application_events_last_hour.log')
