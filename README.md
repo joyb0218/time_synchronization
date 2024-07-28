@@ -41,8 +41,4 @@ Moving out of the simulation of the NTP Client and into the system logs of my pe
  
 # Overview
 
-By analyzing logs, security teams can identify anomalies, unauthorized access attempts, and signs of intrusions, as well as perform root cause analysis and forensic investigations. Logs also support regulatory compliance and create audit trails for reviewing security policies. Python is an ideal tool for log analytics due to its versatility and rich ecosystem of libraries, such as pandas, numpy, and matplotlib, which facilitate data manipulation, analysis, and visualization. Its readable syntax allows for rapid development and easy maintenance of scripts, while its integration capabilities enable seamless connection with other tools and services.
-
-
-
-
+By analyzing logs with accurate time stamps, the cyber security project aims to identify and prioritize potential threats, update security policies and procedures, and implement technical controls. This gives security teams the ability to identify anomalies, identify unauthorized access attempts, and signs of intrusions, as well as perform root cause analysis and forensic investigations. Python is an ideal tool for log analytics due to its versatility and rich ecosystem of libraries, such as pandas, numpy, and matplotlib, which facilitate data manipulation, analysis, and visualization. Its readable syntax allows for rapid development and easy maintenance of scripts, while its integration capabilities enable seamless connection with other tools and services.
