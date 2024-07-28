@@ -27,7 +27,7 @@ SOLUTION: Check if log is generating files. It was - stopped running and reran l
 # Mods:
 - Decided to modify the log_generator.py file to give more information for the system events by renaming the original file with "_OLD", and then creating a new log_generator.py with enhanced script. Now generates file name: system1.log
 - Changed timestamp in log_generator.py file to time.localtime() for all clients.
-- Stepped out of the simulation and pip installed the wmi library to access the Windows Management Instrumentation (WMI) interface to query my own system events (created a new py file outside the log directory- file name: personal_pc.py (see project below)
+- Stepped out of the simulation and pip installed the wmi library to access the Windows Management Instrumentation (WMI) interface to query my own system events (created a new py file outside the log directory- file name: personal_pc.py (see project below)). Ended up switching from WMI to win32evtlog.
 
 # time_synchronization for personal PC (not a simulation)
 
