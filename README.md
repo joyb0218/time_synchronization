@@ -1,6 +1,4 @@
 # time_synchronization
-A project simulation of an NTP client to synchronize time and analyze the logs for consistency.
-
 This Python project will involve setting up a simulated logging environment where multiple systems generate logs with timestamps as a part of initiating security measures for a client.
 
 <b>Objectives:</b>
