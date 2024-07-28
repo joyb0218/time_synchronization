@@ -1,5 +1,5 @@
 # time_synchronization
-This Python project will involve setting up a simulated logging environment where multiple systems generate logs with timestamps as a part of initiating security measures for a client.
+This Python project will involve setting up a simulated logging environment where multiple systems generate logs with timestamps as a part of initiating security measures for a client and then moving into practicing on a personal computer.
 
 <b>Objectives:</b>
 - Set up multiple simulated systems generating logs.
